@@ -8,7 +8,6 @@ module.exports = app => {
 
     router.get("/", network.findAll);
 
-    
     router.put('/:id', network.update)
 
     router.delete('/:id', network.delete)
